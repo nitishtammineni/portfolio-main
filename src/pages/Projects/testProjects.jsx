@@ -7,17 +7,17 @@ const projects = [
     title: "Todo's Application",
     description:
       "A comprehensive to-do management tool designed to enhance productivity. User-friendly interface with HTML, CSS, and Bootstrap. Utilizes Local Storage for task persistence.",
-    src: "/project_img/project-1.png",  // ✅ Use public path
+    src: "@/assets/images/project-1.png",  // ✅ Use public path
     link: "",
     color: "#5196fd",
-    githubLink: "https://github.com/shaina-gh/Sorting-Visualizer",
+    githubLink: "",
     liveLink: "project1/Todo Application/Todo Application.html",
   },
   {
     title: "Counter",
     description:
       "Developed using HTML, CSS, and JavaScript to create an interactive and responsive user interface,An interactive and visually engaging counter application that lets you track, increment, and reset numbers with a sleek, modern design.",
-    src: "/project_img/project2.png",  // Add this image in same folder if available
+    src: "@/assets/images/project2.png",  // Add this image in same folder if available
     link: "",
     color: "#8f89ff",
     githubLink: "",
@@ -27,7 +27,7 @@ const projects = [
     title: "Button Generator",
     description:
       "A dynamic button generator that lets you customize text, style, color, and size in real-time.",
-    src: "/project_img/project3.png",  // Add this image in same folder if available
+    src: "@/assets/images/project3.png",  // Add this image in same folder if available
     link: "",
     color: "#8f89ff",
     githubLink: "",
@@ -37,7 +37,7 @@ const projects = [
     title: "Index Finder",
     description:
       "🔍 A simple and intuitive tool that helps you find the index of any number in a given array instantly.",
-    src: "/project_img/project4.png",  // Add this image in same folder if available
+    src: "@/assets/images/project4.png",  // Add this image in same folder if available
     link: "",
     color: "#8f89ff",
     githubLink: "",
