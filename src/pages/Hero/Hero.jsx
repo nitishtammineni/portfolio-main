@@ -136,7 +136,7 @@ const profile = {
                     I'm
                     <span className="typing-effect gradient-text">
                       {" "}
-                      Meghana dibba 
+                      Meghana Dibba 
                     </span>
                   </span>
                 </h1>

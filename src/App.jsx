@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./assets/css/index.css";
+import Profilepic from '@/assets/images/megana2.png';
 
 // Pages
 import Experience from "./pages/Experience/Experience";
@@ -43,11 +44,15 @@ export default function App() {
     return (
       <div style={styles.container} className="security-container">
         <img
-          src="@/assets/images/megana.jpg"
+          src="src/assets/images/megana2.png"
           alt="Profile"
           style={styles.profileImage}
           className="profile-pic"
         />
+        
+        <h1 style={styles.heading} className="fade-in">
+          Megana Dibba
+        </h1>
         <h2 style={styles.heading} className="fade-in">
           Security Check: What is {question.num1} + {question.num2}?
         </h2>

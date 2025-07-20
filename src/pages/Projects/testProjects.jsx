@@ -1,13 +1,17 @@
 import { ReactLenis } from "lenis/react";
 import { useTransform, motion, useScroll } from "framer-motion";
 import { useRef, useState } from "react";
+import project1 from '@/assets/images/project-1.png';
+import project2 from '@/assets/images/project2.png';
+import project3 from '@/assets/images/project3.png';
+import project4 from '@/assets/images/project4.png';
 
 const projects = [
   {
     title: "Todo's Application",
     description:
       "A comprehensive to-do management tool designed to enhance productivity. User-friendly interface with HTML, CSS, and Bootstrap. Utilizes Local Storage for task persistence.",
-    src: "@/assets/images/project-1.png",  // ✅ Use public path
+    src: project1,  // ✅ Use public path
     link: "",
     color: "#5196fd",
     githubLink: "",
@@ -17,7 +21,7 @@ const projects = [
     title: "Counter",
     description:
       "Developed using HTML, CSS, and JavaScript to create an interactive and responsive user interface,An interactive and visually engaging counter application that lets you track, increment, and reset numbers with a sleek, modern design.",
-    src: "@/assets/images/project2.png",  // Add this image in same folder if available
+     src: project2,
     link: "",
     color: "#8f89ff",
     githubLink: "",
@@ -27,7 +31,7 @@ const projects = [
     title: "Button Generator",
     description:
       "A dynamic button generator that lets you customize text, style, color, and size in real-time.",
-    src: "@/assets/images/project3.png",  // Add this image in same folder if available
+     src: project3,
     link: "",
     color: "#8f89ff",
     githubLink: "",
@@ -37,7 +41,7 @@ const projects = [
     title: "Index Finder",
     description:
       "🔍 A simple and intuitive tool that helps you find the index of any number in a given array instantly.",
-    src: "@/assets/images/project4.png",  // Add this image in same folder if available
+     src: project4,
     link: "",
     color: "#8f89ff",
     githubLink: "",
