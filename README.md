@@ -1,9 +1,9 @@
-# 🚀 Shaina's Portfolio  
+# 🚀Megana's Portfolio  
 
 Welcome to my personal portfolio! This website showcases my work, projects, and experiences as an aspiring Software Engineer & Developer.  
 
 ## 🌐 Live Website  
-[Visit My Portfolio](https://shaina--portfolio.vercel.app/)  
+[Visit My Portfolio]()  
 
 ## 📌 Features  
 - **Projects** – A collection of my technical work.  
